@@ -85,8 +85,7 @@ class Bot:
 
     def post_tweet(self):
         tweet = self.values.get_text()
-        # self.api.update_status(tweet)
-        print(tweet)
+        self.api.update_status(tweet)
 
 if __name__ == '__main__':
     bot = Bot()
