@@ -92,4 +92,4 @@ if __name__ == '__main__':
 
     while (True):
         bot.post_tweet()
-        sleep(10)
+        sleep(1800)
